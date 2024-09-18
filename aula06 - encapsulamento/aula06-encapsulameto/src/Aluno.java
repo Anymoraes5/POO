@@ -17,6 +17,7 @@ public class Aluno {
         return nome;
     }
     
+    
     //contrutor - public (construtor é vinculado a classe)
     public Aluno(String nome, int ra, int idade, String genero, boolean status){
         this.nome = nome; // this é para referenciar o nome da variavel 
@@ -24,6 +25,9 @@ public class Aluno {
         this.idade = idade;
         this.genero = genero;
         this.status = status;
+    
     }
+
+    
     
 }
