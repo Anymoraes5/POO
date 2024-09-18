@@ -1,5 +1,30 @@
 public class App {
     public static void main(String[] args) throws Exception {
+        utilizando_static ();
+        
+        // instância do obj
+        Veiculo v = new Veiculo();
+
+        //chamndo variaveis publicas
+        v.marca = "Ford";
+        v.modelo = "KA";
+
+        Veiculo v1 = new Veiculo();
+        v1.marca = "Fiat";
+        v1.modelo = "Uno";
+
+        final String teste_final;
+        teste_final="Meu primeiro valor"; //a constante não deixa sobrepor o valor 
+        teste_final = "Meu segundo valor";
+
+    }
+    public static void utilizando_static () {
+        //chamando variaveis sem a instância
+        Produto.inteiro1 = 10;
+        Produto.inteiro2 = 20;
+    }
+
+    public void conversao (){
         String st, st2, st3,st4;
         float real, real2;
         int inteiro, inteiro2;
@@ -23,6 +48,9 @@ public class App {
         inteiro2 = 25;
         st4 = Integer.toString(inteiro2);
         System.out.println("inteiro para string: " + st4);
+
+        //conversãod e maneira automatica
+        //st = ""+real2; 
 
     }
 }
