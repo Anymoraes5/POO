@@ -1,18 +1,19 @@
-## Getting Started
+## Aula de POO 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Bem vindo ao meu repositório da aula de POO irei colocar aqui algumas anotações para não esquecer no futuro <3 
 
-## Folder Structure
+"Welcome to my repository for the POO class! I'm going to put some concepts here so I don't forget them in the future. <3"
 
-The workspace contains two folders by default, where:
+## Anotações do git 
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+**git add .** = adicionar alterações de arquivos rastreados  *Inclui essa alterações na area de staging
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+**git commit -m " escreva aqui a mudança "** = faz o commit 
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+**Git pull origin main** = chama a ultima mudança 
 
-## Dependency Management
+**git push origin main** = manda a ultima mudança 
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+**git remote add origin** = chama o repositório remoto 
+##exemplo git remote add origin https://github.com/Anymoraes5/POO.git # chama o repositório remoto
+
